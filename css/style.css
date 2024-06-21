@@ -287,7 +287,7 @@ button {
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     color: #fefeff;
     font-weight: 500;
     margin-left: 0px;
@@ -351,6 +351,14 @@ button {
     padding-bottom: 90px;
 }
 
+
+.image_cpp{
+    width: 75%;
+    float: left;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
 .image_2 {
     width: 100%;
     float: left;
@@ -412,16 +420,22 @@ button {
     color: #599ee9;
 }
 
-.product_section{
+.myWork_section{
     width: 100%;
     float: left;
+    padding-top: 30px;
+}
+
+.youtube_video{
+    width: 100%;
+    float: right;
 }
 .product_section_2 {
     width: 100%;
     float: left;
 }
 
-.product_text{
+.myWork_text{
     width: 100%;
     float: left;
     font-size: 50px;
@@ -431,13 +445,14 @@ button {
     text-align: center;
 }
 
-.long_text{
+.myWork2_text{
     width: 100%;
     float: left;
     font-size: 16px;
     color: #363636;
     margin-left: 0px;
     text-align: center;
+    padding-top: -15px;
 }
 .price_text {
     width: 100%;
