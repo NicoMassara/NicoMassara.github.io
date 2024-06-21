@@ -223,10 +223,13 @@ button {
     padding: 0px;
 }
 
-.logo {
+.name {
+    display: compact;
+    align-content: center;
     width: 18%;
     float: left;
 }
+
 .navbar {
     padding: 20px 30px;
 }
@@ -266,6 +269,15 @@ button {
     padding-top: 40px;
 }
 
+.name_text{
+    width: 100%;
+    float: right;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
 .video_text{
     width: 100%;
     float: left;
@@ -273,7 +285,6 @@ button {
     color: #fefeff;
     font-weight: 600;
     text-transform: uppercase;
-
 }
 .controller_text {
     width: 100%;
@@ -350,7 +361,6 @@ button {
     height: auto;
     padding-bottom: 90px;
 }
-
 
 .image_cpp{
     width: 75%;
