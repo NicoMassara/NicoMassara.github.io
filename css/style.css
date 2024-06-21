@@ -357,6 +357,12 @@ button {
     padding-top: 50px;
 }
 
+.image_profile{
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+
 .about_text{
     width: 100%;
     float: left;
