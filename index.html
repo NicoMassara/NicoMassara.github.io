@@ -1,151 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <!-- basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    <title>Nicolás Massara</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-    <!-- Tweaks for older IEs-->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <!-- owl stylesheets -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Desarrollador de Videojuegos</title>
+<!-- Enlazar CSS externo -->
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- header section start -->
-<div class="header_section">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="logo">
-            <span class="name_text">Nicolas Massara - Junior Game Developer</span>
-        </div>
-    </nav>
+
+
+<!-- ======== HEADER ======== -->
+<header>
+<nav>
+  <div class="logo">
+    <h1>Nicolas Massara</h1>
+    <p class="subtitulo">Junior Game Developer</p>
+  </div>
+  <ul>
+    <li><a href="#sobre-mi">Sobre mí</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+  </ul>
+</nav>
+</header>
+
+
+<!-- ======== SOBRE MÍ ======== -->
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <div class="sobre-mi-contenido">
+    <img src="images/MyPhoto.jpg" alt="Foto de Nicolás" class="mi-foto">
+    <p>
+      Soy un desarrollador de videojuegos apasionado por crear experiencias interactivas y optimizadas.
+      Me especializo en Unity y C#, con experiencia en diseño de sistemas, optimización y trabajo en equipo.
+      Busco constantemente mejorar mis habilidades y explorar nuevas tecnologías del mundo del gaming.
+    </p>
+  </div>
+</section>
+
+<!-- ======== PROYECTOS ======== -->
+<section id="proyectos">
+<h2>Proyectos</h2>
+<div class="proyectos">
+<div class="proyecto">
+  <div class="proyecto-img">
+    <img src="images/games/MM.png" alt="Proyecto">
+  </div>
+  <div class="proyecto-contenido">
+    <h3>Meteor Madness</h3>
+    <p>Creado en Unity</p>
+    <a href="" class="btn-proyecto">Ver más</a>
+  </div>
 </div>
-<!-- header section end -->
-<!-- banner section start -->
-<div class="banner_section layout_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="video_text">Video games</h1>
-                <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-            </div>
-            <div class="col-md-6">
-                <div class="image_unityLogoSingle"><img src="images/unity-logo.png"></div>
-            </div>
-        </div>
-    </div>
+<div class="proyecto">
+  <div class="proyecto-img">
+    <img src="images/games/SB.png" alt="Proyecto">
+  </div>
+  <div class="proyecto-contenido">
+    <h3>Slaughter Bar</h3>
+    <p>Multijugador Online hasta 4 Jugadores creado en Unity</p>
+    <a href="https://nicolasmassara.itch.io/slautgher-bar" class="btn-proyecto">Ver más</a>
+  </div>
 </div>
-<!-- banner section end -->
-<!-- about section start -->
-<div class="about_section layout_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="image_profile"><img src="images/ricardo.png"></div>
-            </div>
-            <div class="col-md-6">
-                <h1 class="about_text">ABOUT ME</h1>
-                <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority 
-                    have suffered alteration in some form, by injected humour, or randomised words which don't look even 
-                    slightly believable</p>
-            </div>
-        </div>
-    </div>
+<div class="proyecto">
+  <div class="proyecto-img">
+    <img src="images/games/RS.png" alt="Proyecto">
+  </div>
+  <div class="proyecto-contenido">
+    <h3>Research And Destroy</h3>
+    <p>Top Down Shooter creado en Unity</p>
+    <a href="https://nicolasmassara.itch.io/research-and-survive" class="btn-proyecto">Ver más</a>
+  </div>
 </div>
-<!-- about section end -->
-<!-- product section start -->
-<div class="myWork_section layout_padding">
-    <div class="container">
-        <div class="text-center">
-            <div class="myWork_text">My <span style="color: #5ca0e9;">Work</span></div>
-            <p class="myWork2_text">This is a little demonstration of the project that I have worked</p>
-        </div>
-        <!-- Embed YouTube Video -->
-        <div class="youtube_video text-center mt-5">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
+<div class="proyecto">
+  <div class="proyecto-img">
+    <img src="images/games/BB.png" alt="Proyecto">
+  </div>
+  <div class="proyecto-contenido">
+    <h3>Burbeja Burboja</h3>
+    <p>Plataformas 2D creado en Unity.</p>
+    <a href="https://nicolasmassara.itch.io/burbeja-burboja" class="btn-proyecto">Ver más</a>
+  </div>
 </div>
-<!-- product section end -->
-<!-- video section start -->
-<div class="video_section layout_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="video_text_2">3d video game</h1>
-                <h1 class="controller_text_2">remoto control</h1>
-                <p class="banner_text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-            </div>
-            <div class="col-md-6">
-                <div class="image_cpp"><img src="images/C++Logo.png"></div>
-            </div>
-        </div>
-    </div>
+<div class="proyecto">
+  <div class="proyecto-img">
+    <img src="images/games/WTR.png" alt="Proyecto">
+  </div>
+  <div class="proyecto-contenido">
+    <h3>Whotter</h3>
+    <p>Plataformas 2D creado en Unity</p>
+    <a href="https://luinbucket.itch.io/woother" class="btn-proyecto">Ver Más</a>
+  </div>
 </div>
-<!-- video section end -->
-<!-- contact section start -->
-<div class="contact_section layout_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Contact</h2>
-                <p>Email: nicolasmassara@outlook.com</p>
-                <a class="nav-link" href="https://github.com/NicoMassara">Github</a>
-                <a class="nav-link" href="https://crisriper37.itch.io">Itch.io</a>
-                <a class="nav-link" href="https://www.linkedin.com/in/nicolas-federico-massara-95818322a/">Linkedin</a>
-            </div>
-            <div class="col-md-6">
-                <div class="image_6"><img src="images/img-6.png"></div>
-            </div>
-        </div>
-    </div>
+</section>
+
+
+<!-- ======== HABILIDADES ======== -->
+<section id="habilidades">
+<h2>Habilidades</h2>
+<div class="habilidades">
+<span class="habilidad">Unity</span>
+<span class="habilidad">Unreal Engine 5</span>
+<span class="habilidad">C#</span>
+<span class="habilidad">C++</span>
+<span class="habilidad">Optimización</span>
+<span class="habilidad">Diseño de sistemas</span>
+<span class="habilidad">Patrones de Diseño</span>
+<span class="habilidad">Trabajo en equipo</span>
+<span class="habilidad">GitHub</span>
+<span class="habilidad">Jira</span>
 </div>
-<!-- contact section end -->
-<!-- footer section start -->
-<div class="section_footer">
-    <div class="container">
-        <!-- Empty div to maintain background -->
-    </div>
-</div>
-<!-- footer section end -->
-<!-- Javascript files-->
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery-3.0.0.min.js"></script>
-<script src="js/plugin.js"></script>
-<!-- sidebar -->
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/custom.js"></script>
-<!-- javascript -->
-<script src="js/owl.carousel.js"></script>
-<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $(".fancybox").fancybox({
-            openEffect: "none",
-            closeEffect: "none"
-        });
-</script>
+</section>
+
+
+
+<!-- ======== FOOTER ======== -->
+<footer>
+© 2025 Nicolas Massara | Junior Game Developer
+  <div class="redes-footer">
+    <a href="https://www.linkedin.com/in/tuusuario" target="_blank">
+      <img src="images/icons/linkedin.png" alt="LinkedIn" class="icono-redes">
+    </a>
+    <a href="https://nicolasmassara.itch.io/" target="_blank">
+      <img src="images/icons/itchio.png" alt="Itch.io" class="icono-redes">
+    </a>
+    <a href="https://github.com/NicoMassara" target="_blank">
+      <img src="images/icons/github.png" alt="GitHub" class="icono-redes">
+    </a>
+  </div>
+</footer>
+
+
 </body>
 </html>

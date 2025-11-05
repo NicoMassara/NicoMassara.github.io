@@ -1,0 +1,206 @@
+/* ======== Reset y generales ======== */
+* { box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth; }
+
+
+body {
+font-family: "Segoe UI", Roboto, sans-serif;
+background-color: #f8f9fa;
+color: #222;
+line-height: 1.6;
+}
+
+
+header {
+background-color: white;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+z-index: 10;
+}
+
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1000px;
+margin: 0 auto;
+padding: 1rem 2rem;
+}
+
+
+nav h1 { font-size: 1.4rem; font-weight: bold; color: #0078ff; }
+nav ul { list-style: none; display: flex; gap: 1.5rem; }
+nav ul li a { text-decoration: none; color: #333; font-weight: 500; transition: color 0.2s ease; }
+nav ul li a:hover { color: #0078ff; }
+
+
+section { max-width: 1000px; margin: 0 auto; padding: 6rem 2rem; scroll-margin-top: 80px; }
+
+
+h2 { font-size: 2rem; color: #0078ff; margin-bottom: 1.5rem; }
+
+/* Logo */
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #0078ff;
+}
+
+.logo .subtitulo {
+  font-size: 1rem;      /* más grande que antes */
+  color: #131414;       /* azul para que destaque */
+  margin-top: 0.2rem;   /* espacio pequeño debajo del nombre */
+  font-weight: 600;     /* más grueso */
+  letter-spacing: 1px;  /* espaciado entre letras */
+}
+
+
+/* Sobre mí */
+.sobre-mi-contenido {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* para que en móvil se apilen */
+}
+
+#sobre-mi {
+  padding-top: rem; /* espacio suficiente para que no lo tape el header */
+  padding-bottom: 2rem; /* espacio inferior razonable */
+}
+
+
+
+/* Párrafo de la sección */
+#sobre-mi p {
+  font-size: 1.4rem; /* Ajusta el tamaño del texto */
+  line-height: 1.6;  /* Para mejor lectura */
+  color: #555;
+}
+
+
+.mi-foto {
+  width: 200px;        /* tamaño de la foto */
+  height: 200px;       /* igual para cuadrado */
+  border-radius: 50%;  /* redondea como círculo */
+  object-fit: cover;   /* recorta sin deformar */
+  flex-shrink: 0;      /* no se achica demasiado */
+}
+
+
+/* Proyectos */
+.proyectos { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 400px; /* ajusta según tu diseño */
+}
+
+.proyecto img {
+  display: block;           /* Evita espacio debajo de la imagen */
+  width: 100%;              /* Ocupa todo el ancho de la tarjeta */
+  height: auto;             /* Mantiene proporción */
+  aspect-ratio: 16 / 9;     /* Mantiene proporción tipo pantalla */
+  object-fit: cover;        /* Recorta sin deformar */
+  border-radius: 10px 10px 0 0; /* Bordes redondeados solo arriba */
+  margin-bottom: 1rem;      /* Espacio debajo */
+}
+
+
+.proyecto:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.proyecto h3 { margin-bottom: 0.5rem; color: #333; }
+.proyecto p { font-size: 0.95rem; color: #555; }
+
+
+/* Botón de proyecto (links) */
+.btn-proyecto {
+display: inline-block;
+margin-top: 0.8rem;
+padding: 0.6rem 1.2rem;
+background-color: #0078ff;
+color: white;
+border-radius: 6px;
+text-decoration: none;
+font-weight: 500;
+transition: background-color 0.2s ease, transform 0.08s ease;
+}
+
+
+.btn-proyecto:hover { background-color: #005fcc; transform: translateY(-2px); }
+
+
+/* Habilidades */
+.habilidades { display: flex; flex-wrap: wrap; gap: 1rem; }
+.habilidad {
+   background: #0078ff; color: white; padding: 0.6rem 1.2rem; border-radius: 20px; font-size: 0.95rem; font-weight: 500; }
+#habilidades {
+  padding-top: 0rem; /* espacio suficiente para que no lo tape el header */
+}
+
+/* Redes */
+
+.redes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.icono-redes {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.icono-redes:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Footer */
+footer { text-align: center; padding: 2rem; background: white; color: #555; font-size: 0.9rem; border-top: 1px solid #ddd; }
+.footer p {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.redes-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.redes-footer .icono-redes {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.redes-footer .icono-redes:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 600px) {
+nav ul { gap: 1rem; font-size: 0.9rem; }
+h2 { font-size: 1.6rem; }
+}
+
