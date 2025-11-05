@@ -72,7 +72,7 @@ h2 { font-size: 2rem; color: #0078ff; margin-bottom: 1.5rem; }
 }
 
 #sobre-mi {
-  padding-top: rem; /* espacio suficiente para que no lo tape el header */
+  padding-top: 5rem; /* espacio suficiente para que no lo tape el header */
   padding-bottom: 2rem; /* espacio inferior razonable */
 }
 
@@ -101,13 +101,13 @@ h2 { font-size: 2rem; color: #0078ff; margin-bottom: 1.5rem; }
 
 .proyecto {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  /* columna: texto arriba, botón abajo */
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 1.5rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  min-height: 400px; /* ajusta según tu diseño */
+  min-height: 375px;      /* altura mínima de la tarjeta */
 }
 
 .proyecto img {
@@ -120,6 +120,12 @@ h2 { font-size: 2rem; color: #0078ff; margin-bottom: 1.5rem; }
   margin-bottom: 1rem;      /* Espacio debajo */
 }
 
+.proyecto-contenido {
+  display: flex;
+  flex-direction: column;  
+  flex-grow: 1;            /* ocupa todo el espacio disponible */
+}
+
 
 .proyecto:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
 .proyecto h3 { margin-bottom: 0.5rem; color: #333; }
@@ -128,15 +134,15 @@ h2 { font-size: 2rem; color: #0078ff; margin-bottom: 1.5rem; }
 
 /* Botón de proyecto (links) */
 .btn-proyecto {
-display: inline-block;
-margin-top: 0.8rem;
-padding: 0.6rem 1.2rem;
-background-color: #0078ff;
-color: white;
-border-radius: 6px;
-text-decoration: none;
-font-weight: 500;
-transition: background-color 0.2s ease, transform 0.08s ease;
+  margin-top: auto;        /* siempre al final del espacio de la tarjeta */
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #0078ff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.08s ease;
 }
 
 
@@ -182,20 +188,21 @@ footer { text-align: center; padding: 2rem; background: white; color: #555; font
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.redes-footer .icono-redes {
-  width: 32px;
-  height: 32px;
-  transition: transform 0.2s, opacity 0.2s;
+.contacto-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.redes-footer .icono-redes:hover {
-  transform: scale(1.2);
-  opacity: 0.8;
+.email-footer {
+  font-size: 1rem;
+  color: #030303;
+  font-weight: 500;
 }
-
-
 
 
 /* Responsive */
