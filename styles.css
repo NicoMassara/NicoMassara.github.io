@@ -72,7 +72,7 @@ h2 { font-size: 2rem; color: #0078ff; margin-bottom: 1.5rem; }
 }
 
 #sobre-mi {
-  padding-top: 5rem; /* espacio suficiente para que no lo tape el header */
+  padding-top: 8rem; /* espacio suficiente para que no lo tape el header */
   padding-bottom: 2rem; /* espacio inferior razonable */
 }
 

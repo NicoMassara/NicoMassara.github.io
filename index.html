@@ -9,115 +9,116 @@
 </head>
 <body>
 
-
 <!-- ======== HEADER ======== -->
 <header>
 <nav>
   <div class="logo">
-    <h1>Nicolas Massara</h1>
-    <p class="subtitulo">Junior Game Developer</p>
+    <h1 id="nombre">Nicolas Massara</h1>
+    <p class="subtitulo" id="subtitulo">Junior Game Developer</p>
   </div>
   <ul>
-    <li><a href="#sobre-mi">Sobre mí</a></li>
-    <li><a href="#proyectos">Proyectos</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#sobre-mi" id="header-sobreMi">About Me</a></li>
+    <li><a href="#proyectos" id="header-proyectos">Games</a></li>
+    <li><a href="#habilidades" id="header-habilidades">Skills</a></li>
   </ul>
 </nav>
 </header>
 
-
 <!-- ======== SOBRE MÍ ======== -->
 <section id="sobre-mi">
-  <h2>Sobre mí</h2>
+  <h2 id="sobreMi-titulo">About Me</h2>
   <div class="sobre-mi-contenido">
     <img src="images/MyPhoto.jpg" alt="Foto de Nicolás" class="mi-foto">
-    <p>
-      Soy un desarrollador de videojuegos apasionado por crear experiencias interactivas y optimizadas.
-      Me especializo en Unity y C#, con experiencia en diseño de sistemas, optimización y trabajo en equipo.
-      Busco constantemente mejorar mis habilidades y explorar nuevas tecnologías del mundo del gaming.
+    <p id="sobreMi-texto">
+      I'm an adaptable and passionate programmer with a strong ability to learn quickly and optimize processes. 
+      I've recently finish my degree in game development at UADE and I'm looking for a role where I can apply my skills and contribute to the team's success.
     </p>
   </div>
 </section>
 
 <!-- ======== PROYECTOS ======== -->
 <section id="proyectos">
-<h2>Proyectos</h2>
+<h2 id="proyectos-titulo">Proyectos</h2>
 <div class="proyectos">
+
 <div class="proyecto">
   <div class="proyecto-img">
     <img src="images/games/MM.png" alt="Proyecto">
   </div>
   <div class="proyecto-contenido">
-    <h3>Meteor Madness</h3>
-    <p>Creado en Unity</p>
-    <a href="https://nicolasmassara.itch.io/meteor-madness" class="btn-proyecto">Ver más</a>
+    <h3 class="proyecto-nombre">Meteor Madness</h3>
+    <p class="proyecto-descripcion">Proyectile Defender made in Unity</p>
+    <a href="https://nicolasmassara.itch.io/meteor-madness" class="btn-proyecto proyecto-boton">Go to Itch.io</a>
   </div>
 </div>
+
 <div class="proyecto">
   <div class="proyecto-img">
     <img src="images/games/SB.png" alt="Proyecto">
   </div>
   <div class="proyecto-contenido">
-    <h3>Slaughter Bar</h3>
-    <p>Multijugador Online hasta 4 Jugadores creado en Unity</p>
-    <a href="https://nicolasmassara.itch.io/slautgher-bar" class="btn-proyecto">Ver más</a>
+    <h3 class="proyecto-nombre">Slaughter Bar</h3>
+    <p class="proyecto-descripcion">Online multiplayer up to 4 players made in Unity</p>
+    <a href="https://nicolasmassara.itch.io/slautgher-bar" class="btn-proyecto proyecto-boton">Go to Itch.io</a>
   </div>
 </div>
+
 <div class="proyecto">
   <div class="proyecto-img">
     <img src="images/games/RS.png" alt="Proyecto">
   </div>
   <div class="proyecto-contenido">
-    <h3>Research And Destroy</h3>
-    <p>Top Down Shooter creado en Unity</p>
-    <a href="https://nicolasmassara.itch.io/research-and-survive" class="btn-proyecto">Ver más</a>
+    <h3 class="proyecto-nombre">Research And Destroy</h3>
+    <p class="proyecto-descripcion">Top Down Shooter made in Unity</p>
+    <a href="https://nicolasmassara.itch.io/research-and-survive" class="btn-proyecto proyecto-boton">Go to Itch.io</a>
   </div>
 </div>
+
 <div class="proyecto">
   <div class="proyecto-img">
     <img src="images/games/BB.png" alt="Proyecto">
   </div>
   <div class="proyecto-contenido">
-    <h3>Burbeja Burboja</h3>
-    <p>Plataformas 2D creado en Unity.</p>
-    <a href="https://nicolasmassara.itch.io/burbeja-burboja" class="btn-proyecto">Ver más</a>
+    <h3 class="proyecto-nombre">Burbeja Burboja</h3>
+    <p class="proyecto-descripcion">2D Platform made in Unity</p>
+    <a href="https://nicolasmassara.itch.io/burbeja-burboja" class="btn-proyecto proyecto-boton">Go to Itch.io</a>
   </div>
 </div>
+
 <div class="proyecto">
   <div class="proyecto-img">
     <img src="images/games/WTR.png" alt="Proyecto">
   </div>
   <div class="proyecto-contenido">
-    <h3>Whotter</h3>
-    <p>Plataformas 2D creado en Unity</p>
-    <a href="https://luinbucket.itch.io/woother" class="btn-proyecto">Ver Más</a>
+    <h3 class="proyecto-nombre">Woother</h3>
+    <p class="proyecto-descripcion">2D Platform made in Unity</p>
+    <a href="https://luinbucket.itch.io/woother" class="btn-proyecto proyecto-boton">Go to Itch.io</a>
   </div>
+</div>
+
 </div>
 </section>
 
-
 <!-- ======== HABILIDADES ======== -->
 <section id="habilidades">
-<h2>Habilidades</h2>
-<div class="habilidades">
+<h2 id="habilidades-titulo">Skills</h2>
+<div class="habilidades" id="habilidades-lista">
 <span class="habilidad">Unity</span>
 <span class="habilidad">Unreal Engine 5</span>
 <span class="habilidad">C#</span>
 <span class="habilidad">C++</span>
-<span class="habilidad">Optimización</span>
-<span class="habilidad">Diseño de sistemas</span>
-<span class="habilidad">Patrones de Diseño</span>
-<span class="habilidad">Trabajo en equipo</span>
+<span class="habilidad">Optimization</span>
+<span class="habilidad">System Design</span>
+<span class="habilidad">Design Patterns</span>
+<span class="habilidad">Team Work</span>
 <span class="habilidad">GitHub</span>
 <span class="habilidad">Jira</span>
 </div>
 </section>
 
-
-
 <!-- ======== FOOTER ======== -->
 <footer>
-  © 2025 Nicolas Massara | Junior Game Developer
+  <span id="footer-texto">© 2025 Nicolas Massara | Junior Game Developer</span>
   <div class="redes-footer">
     <a href="https://www.linkedin.com/in/tuusuario" target="_blank">
       <img src="images/icons/linkedin.png" alt="LinkedIn" class="icono-redes">
@@ -131,11 +132,10 @@
 
     <!-- Icono de Outlook + email -->
     <div class="contacto-footer">
-      <span class="email-footer">nicolasmassara@outlook.com</span>
+      <span id="footer-email" class="email-footer">nicolasmassara@outlook.com</span>
     </div>
   </div>
 </footer>
-
 
 </body>
 </html>
