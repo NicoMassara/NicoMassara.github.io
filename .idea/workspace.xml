@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9843c9e5-5c97-4422-a765-7f202916146b" name="Changes" comment="" />
+    <list default="true" id="9843c9e5-5c97-4422-a765-7f202916146b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +53,9 @@
       <workItem from="1762373665160" duration="89000" />
       <workItem from="1762373814823" duration="262000" />
       <workItem from="1762393845365" duration="58000" />
+      <workItem from="1762431473434" duration="132000" />
+      <workItem from="1762799374603" duration="47000" />
+      <workItem from="1762799763039" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="About me Text update">
       <option name="closed" value="true" />
@@ -84,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762393886070</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added SQL as a skill">
+      <option name="closed" value="true" />
+      <created>1762431493875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762431493875</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
     <MESSAGE value="About Me update" />
     <MESSAGE value="Title Change" />
     <MESSAGE value="Language change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Language change" />
+    <MESSAGE value="Added SQL as a skill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SQL as a skill" />
   </component>
 </project>
